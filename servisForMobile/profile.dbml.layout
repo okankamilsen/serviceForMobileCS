@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="profile">
+  <DataContextMoniker Name="/profileDataContext" />
+  <nestedChildShapes>
+    <classShape Id="0a3efc55-d271-4673-a34e-a8ff0389f7cf" absoluteBounds="0.75, 1.25, 2, 1.1939925130208338">
+      <DataClassMoniker Name="/profileDataContext/menu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="519fea39-4958-4e00-8280-bb0679852456" absoluteBounds="0.765, 1.71, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cfbeb67e-7590-4a84-b9cc-127dd00f861d" absoluteBounds="6.25, 1, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/profileDataContext/tableOrderItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e0c5a6d1-8128-4ef5-a098-99279ad000ec" absoluteBounds="6.265, 1.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="14b0c8de-eded-4188-996f-f5df74326f5c" absoluteBounds="3.5, 4, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/profileDataContext/tableOrder" />
+      <nestedChildShapes>
+        <elementListCompartment Id="23aa5dd3-18f8-403c-ac42-989adfa867ca" absoluteBounds="3.515, 4.46, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7b6e8934-7f92-4145-8e33-c71fe8aedfbd" absoluteBounds="0.75, 4.125, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/profileDataContext/restaurantTable" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1787f908-a4fa-4283-adb1-e18e33892184" absoluteBounds="0.765, 4.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0b01cfde-aa75-44bc-9aff-d560ef3c341d" absoluteBounds="3.5, 0.875, 2, 1.7708968098958333">
+      <DataClassMoniker Name="/profileDataContext/menuItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="80740e1b-d286-4f90-b041-2db68c9c5bc4" absoluteBounds="3.515, 1.335, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 4.78929768880208); (7.25 : 4.78929768880208); (7.25 : 2.57859537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/profileDataContext/tableOrder/tableOrder_tableOrderItem" />
+      <nodes>
+        <classShapeMoniker Id="14b0c8de-eded-4188-996f-f5df74326f5c" />
+        <classShapeMoniker Id="cfbeb67e-7590-4a84-b9cc-127dd00f861d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.81814697265625); (3.5 : 4.81814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/profileDataContext/restaurantTable/restaurantTable_tableOrder" />
+      <nodes>
+        <classShapeMoniker Id="7b6e8934-7f92-4145-8e33-c71fe8aedfbd" />
+        <classShapeMoniker Id="14b0c8de-eded-4188-996f-f5df74326f5c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 1.78929768880208); (6.25 : 1.78929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/profileDataContext/menuItem/menuItem_tableOrderItem" />
+      <nodes>
+        <classShapeMoniker Id="0b01cfde-aa75-44bc-9aff-d560ef3c341d" />
+        <classShapeMoniker Id="cfbeb67e-7590-4a84-b9cc-127dd00f861d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.84699625651042); (3.5 : 1.84699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/profileDataContext/menu/menu_menuItem" />
+      <nodes>
+        <classShapeMoniker Id="0a3efc55-d271-4673-a34e-a8ff0389f7cf" />
+        <classShapeMoniker Id="0b01cfde-aa75-44bc-9aff-d560ef3c341d" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

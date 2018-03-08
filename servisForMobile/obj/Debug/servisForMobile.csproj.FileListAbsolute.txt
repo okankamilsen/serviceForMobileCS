@@ -1,0 +1,61 @@
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\servisForMobile.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\servisForMobile.pdb
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\Antlr3.Runtime.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\DotNetOpenAuth.Core.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\EntityFramework.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\System.Web.Optimization.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\System.Web.Providers.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\WebGrease.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\EntityFramework.xml
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\DotNetOpenAuth.Core.xml
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\obj\Debug\servisForMobile.dll
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\obj\Debug\servisForMobile.pdb
+C:\Users\okan\documents\visual studio 2012\Projects\servisForMobile\servisForMobile\obj\Debug\servisForMobile.csprojResolveAssemblyReference.cache
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\servisForMobile.dll.config
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\servisForMobile.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\servisForMobile.pdb
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\Antlr3.Runtime.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\DotNetOpenAuth.Core.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\EntityFramework.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\System.Web.Optimization.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\System.Web.Providers.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\WebGrease.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\EntityFramework.xml
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\DotNetOpenAuth.Core.xml
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\obj\Debug\servisForMobile.csprojResolveAssemblyReference.cache
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\obj\Debug\servisForMobile.dll
+C:\Users\okankamilsen\Desktop\servisForMobile\servisForMobile\obj\Debug\servisForMobile.pdb

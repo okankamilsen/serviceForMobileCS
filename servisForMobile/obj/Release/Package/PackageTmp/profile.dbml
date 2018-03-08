@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DB140721124322" Class="profileDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=mssql22.natro.com;Initial Catalog=DB140721124322;User ID=USR140721124322" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="Android_LocationsConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PROFILE_RELATIONS" Member="PROFILE_RELATIONs">
+    <Type Name="PROFILE_RELATION">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PARENTID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PROFILE_FULLNAME" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="PROFILE_USERID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="PROFILE_EMAIL" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="DATE_RECORD" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PROFILE" Member="PROFILEs">
+    <Type Name="PROFILE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PROFILE_FULLNAME" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="PROFILE_USERID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="PROFILE_EMAIL" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="DATE_RECORD" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="PASSWORD" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.POLICE_LOCATIONS" Member="POLICE_LOCATIONs">
+    <Type Name="POLICE_LOCATION">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PROFILE_USERID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="LATITUDE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LONGITUDE" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DESCRIPTION" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="DATE_RECORD" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="ISACTIVE" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

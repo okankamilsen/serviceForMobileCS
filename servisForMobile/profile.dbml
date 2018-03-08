@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DataSource" Class="profileDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=SQL5017.Smarterasp.net;User ID=DB_9FAC11_etkiproject_admin" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DataSourceConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.menu" Member="menus">
+    <Type Name="menu">
+      <Column Name="menuID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="menuName" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Association Name="menu_menuItem" Member="menuItems" ThisKey="menuID" OtherKey="menuID" Type="menuItem" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tableOrderItem" Member="tableOrderItems">
+    <Type Name="tableOrderItem">
+      <Column Name="tableOrderItemID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="menuItemID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="tableOrderID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="tableOrder_tableOrderItem" Member="tableOrder" ThisKey="tableOrderID" OtherKey="tableOrderID" Type="tableOrder" IsForeignKey="true" />
+      <Association Name="menuItem_tableOrderItem" Member="menuItem" ThisKey="menuItemID" OtherKey="menuItemID" Type="menuItem" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tableOrder" Member="tableOrders">
+    <Type Name="tableOrder">
+      <Column Name="tableOrderID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="tableID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="time" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="isPaid" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="tableOrder_tableOrderItem" Member="tableOrderItems" ThisKey="tableOrderID" OtherKey="tableOrderID" Type="tableOrderItem" />
+      <Association Name="restaurantTable_tableOrder" Member="restaurantTable" ThisKey="tableID" OtherKey="tableID" Type="restaurantTable" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.restaurantTable" Member="restaurantTables">
+    <Type Name="restaurantTable">
+      <Column Name="tableID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="tableName" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="callWaiter" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="restaurantTable_tableOrder" Member="tableOrders" ThisKey="tableID" OtherKey="tableID" Type="tableOrder" />
+    </Type>
+  </Table>
+  <Table Name="dbo.menuItem" Member="menuItems">
+    <Type Name="menuItem">
+      <Column Name="menuItemID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="menuID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="itemName" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="imageName" Type="System.String" DbType="NChar(20)" CanBeNull="true" />
+      <Column Name="price" Type="System.Decimal" DbType="Decimal(5,2)" CanBeNull="true" />
+      <Association Name="menuItem_tableOrderItem" Member="tableOrderItems" ThisKey="menuItemID" OtherKey="menuItemID" Type="tableOrderItem" />
+      <Association Name="menu_menuItem" Member="menu" ThisKey="menuID" OtherKey="menuID" Type="menu" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
